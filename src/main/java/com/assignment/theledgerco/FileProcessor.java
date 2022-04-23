@@ -4,9 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import static com.assignment.theledgerco.Constants.Commands.BALANCE;
-import static com.assignment.theledgerco.Constants.Commands.LOAN;
-import static com.assignment.theledgerco.Constants.Commands.PAYMENT;
+import static constants.CommandConstants.*;
 
 public class FileProcessor {
 
