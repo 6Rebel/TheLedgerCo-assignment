@@ -8,7 +8,7 @@ import static com.assignment.theledgerco.Constants.Commands.BALANCE;
 import static com.assignment.theledgerco.Constants.Commands.LOAN;
 import static com.assignment.theledgerco.Constants.Commands.PAYMENT;
 
-class FileProcessor {
+public class FileProcessor {
 
     private LoanProcessor loanProcessor = new LoanProcessor();
 
@@ -17,7 +17,7 @@ class FileProcessor {
      *
      * @param file - the input file to process
      */
-    void processInputFile(File file) {
+    public void processInputFile(File file) {
         try (Scanner sc = new Scanner(file)) {
             while (sc.hasNextLine()) {
                 String command = sc.nextLine();
